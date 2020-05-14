@@ -24,3 +24,9 @@
 .blackText {
     color: black;   
 }
+
+header.color {
+     font-size: 30px;
+    color: blueviolet;
+
+}
