@@ -1,32 +1,39 @@
 #elem {
-    width: 200px;
-    height: 200px;
-    border: 1px solid red;
-    display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  display: inline-block;
 }
 
 .secondElem {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-    background: red;
-    display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: red;
+  display: inline-block;
 }
 
 .redText {
-    color: red;   
+  color: red;
 }
 
 .greenText {
-    color: green;   
+  color: green;
 }
 
 .blackText {
-    color: black;   
+  color: black;
 }
 
 header.color {
-     font-size: 30px;
-    color: blueviolet;
+  font-size: 30px;
+  color: blueviolet;
+}
 
+.randomText {
+  position: fixed;
+  top: 30%;
+  left: 45%;
+  font-size: 30px;
+  background-color: aqua;
 }
