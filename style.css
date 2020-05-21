@@ -34,3 +34,28 @@ section .mainButtons{
     text-align: center;
     margin: 15px auto;
 }
+
+section.featuretteSection{
+    background-color: burlywood;
+    padding: 20px 0;
+    }
+
+section.featuretteSection .smallContainer{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.smallContainer .textBlock{
+
+
+}
+
+.smallContainer .myPhoto {
+    width: 50%;
+    height: 200px;
+    background-color: gray;
+}
