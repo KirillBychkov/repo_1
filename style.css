@@ -59,3 +59,26 @@ section.featuretteSection .smallContainer{
     height: 200px;
     background-color: gray;
 }
+
+
+section.headings {
+    background-color: brown;
+}
+.mainContainer{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+      
+.column3 {
+
+}
+.circle3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: cyan;
+}
+ 
