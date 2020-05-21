@@ -78,3 +78,15 @@ section.headings {
     background-color: cyan;
 }
  
+.mainContainer.purple {
+    background-color: purple;
+    justify-content: flex-start;
+    margin: 15px auto;
+    padding: 10px;
+} 
+
+.letter {
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}
