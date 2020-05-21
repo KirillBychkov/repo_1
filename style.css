@@ -1,9 +1,11 @@
-body{
+body {
     margin: 0;
 }
+
 header.row {
     background: rgb(46, 44, 44);
 }
+
 .container {
     padding: 10px;
     margin: 0 auto;
@@ -12,10 +14,12 @@ header.row {
     justify-content: space-between;
     color: white;
 }
+
 p.albumText {
     margin: 0;
     display: inline-block;
 }
+
 .headerIcon {
     display: inline-block;
     width: 20px;
@@ -23,24 +27,24 @@ p.albumText {
     background: indianred;
 }
 
-section.albumsSection h1{
+section.albumsSection h1 {
     font-size: 30px;
     text-align: center;
 }
 
 section .albumMain, 
-section .mainButtons{
+section .mainButtons {
     max-width: 400px;
     text-align: center;
     margin: 15px auto;
 }
 
-section.featuretteSection{
+section.featuretteSection {
     background-color: burlywood;
     padding: 20px 0;
-    }
+}
 
-section.featuretteSection .smallContainer{
+section.featuretteSection .smallContainer {
     max-width: 800px;
     margin: 0 auto;
     display: flex;
@@ -49,21 +53,16 @@ section.featuretteSection .smallContainer{
     border-bottom: 1px solid grey;
 }
 
-.smallContainer .textBlock{
-
-
-}
-
 .smallContainer .myPhoto {
     width: 50%;
     height: 200px;
     background-color: gray;
 }
 
-
 section.headings {
     background-color: brown;
 }
+
 .mainContainer{
     max-width: 800px;
     margin: 0 auto;
@@ -71,10 +70,7 @@ section.headings {
     justify-content: space-between;
     padding: 20px 0;
 }
-      
-.column3 {
 
-}
 .circle3 {
     width: 30px;
     height: 30px;
