@@ -90,3 +90,13 @@ section.headings {
     border: 1px solid white;
     color: white;
 }
+footer {
+    background-color: black;
+    position: relative;
+}
+
+footer a {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
