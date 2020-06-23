@@ -6,7 +6,13 @@ form.addEventListener("submit", function (event) {
   event.preventDefault();
   let firstInput = document.querySelector(".text");
   let newDiv = document.createElement("div");
-  newDiv.innerHTML = firstInput.value;
+  newDiv.className = "marker"
+  let span = document.createElement("span");
+  let button = document.createElement("button");
+  span.innerHTML = firstInput.value;
+  button.innerHTML= "mark as done"
+  newDiv.appendChild(span)
+  newDiv.appendChild(button);
   if (firstInput.value !== "") {
     firstInput.value = "";
     wrapper.appendChild(newDiv);

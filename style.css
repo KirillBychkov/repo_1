@@ -1,6 +1,7 @@
 #wrapper {
-  width: 200px;
-  height: 200px;
+  width: 420px;
+  font-size: 20px;
+  margin: 10px 0;
   color: #f00;
 }
 .text,
@@ -11,4 +12,8 @@
 }
 .text::placeholder {
   color: #000;
+}
+.marker {
+  display: flex;
+  justify-content: space-between;
 }
