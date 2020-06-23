@@ -9,6 +9,10 @@ form.addEventListener("submit", function (event) {
   newDiv.className = "marker"
   let span = document.createElement("span");
   let button = document.createElement("button");
+  button.addEventListener('click', function () {
+
+  span.classList.toggle('lines')  
+  }) 
   span.innerHTML = firstInput.value;
   button.innerHTML= "mark as done"
   newDiv.appendChild(span)
