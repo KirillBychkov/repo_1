@@ -1,13 +1,14 @@
-let wrapper = document.querySelector('#wrapper')
-console.log(wrapper)
-wrapper.innerHTML = "text"
+let wrapper = document.querySelector("#wrapper");
 
-
-let form = document.querySelector("form.firstBlock")
+let form = document.querySelector("form.firstBlock");
 
 form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    let firstInput = document.querySelector(".text");
-    console.log(firstInput.value);
+  event.preventDefault();
+  let firstInput = document.querySelector(".text");
+  let newDiv = document.createElement("div");
+  newDiv.innerHTML = firstInput.value;
+  if (firstInput.value !== "") {
     firstInput.value = "";
-})
+    wrapper.appendChild(newDiv);
+  }
+});
