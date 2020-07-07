@@ -16,10 +16,14 @@ const list = [
 ];
 
 function App() {
+  const addTask = function () {
+   console.log('button click') 
+  }
+
   return (
     <div className="App">
       <div className="wrapper">
-        <Button text="click me" />
+        <Button text="click me"  onclick={addTask} />
         <Input placeholder="enter text" />
       </div>
       <List listOfItems={list} />
