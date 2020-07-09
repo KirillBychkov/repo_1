@@ -2,21 +2,12 @@ import React from "react";
 import Button from "./components/button";
 import Input from "./components/input";
 import List from "./components/list";
+
 import "./style.sass";
 
-const list = [
-  {
-    name: "Buy Milk",
-    id: 1,
-  },
-  {
-    name: "Go to the gym",
-    id: 2,
-  },
-];
+const App = () => {
 
-function App() {
-  const addTask = function () {
+  const addTask = () => {
    console.log('button click') 
   }
 
@@ -26,7 +17,7 @@ function App() {
         <Button text="click me"  onclick={addTask} />
         <Input placeholder="enter text" />
       </div>
-      <List listOfItems={list} />
+      <List />
     </div>
   );
 }

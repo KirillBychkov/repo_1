@@ -1,7 +1,16 @@
 import React from "react";
+import { list } from "../../const";
 
-function List({ listOfItems }) {
-  return <ul>{listOfItems.map((elem) => <li key={elem.id}>{elem.name}</li>)}</ul>;
-}
+const List = () =>
+  <ul>
+    {
+      list.map(
+        (elem) =>
+          <li key={elem.id}>
+            {elem.name}
+          </li>
+      )
+    }
+  </ul>;
 
 export default List;
