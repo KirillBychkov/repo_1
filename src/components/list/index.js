@@ -1,7 +1,6 @@
 import React from "react";
-import { list } from "../../const";
 
-const List = () =>
+const List = ({ list }) =>
   <ul>
     {
       list.map(
