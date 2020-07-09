@@ -2,7 +2,7 @@ import React from 'react';
 import './style.sass';
 
  const Input = ({ placeholder, value, setValue }) => {
-   const onChange = (event) => setValue(event.target.value);
+   const onChange = ({ target }) => setValue(target.value);
 
    return <div>
      <input

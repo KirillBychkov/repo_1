@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="257f8475-73a5-496b-b0e3-20ec67037f5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/style.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +57,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -67,7 +75,7 @@
       <workItem from="1592926517915" duration="2618000" />
       <workItem from="1592991697775" duration="33000" />
       <workItem from="1594135718106" duration="1108000" />
-      <workItem from="1594307887545" duration="4091000" />
+      <workItem from="1594307887545" duration="10337000" />
     </task>
     <servers />
   </component>
@@ -75,6 +83,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="520" y="225" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594316083273">
+      <screen x="0" y="0" width="1866" height="1080" />
+    </state>
+    <state x="520" y="225" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1866.1080/1920.0.1920.1080@0.0.1866.1080" timestamp="1594316083273" />
     <state x="561" y="241" width="530" height="605" key="FileChooserDialogImpl" timestamp="1594136843607">
       <screen x="0" y="0" width="1866" height="1080" />
     </state>

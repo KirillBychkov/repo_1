@@ -1,11 +1,20 @@
-export const list = [
+import { uuid } from 'uuidv4';
+
+export const initListItems = [
   {
     name: "Buy Milk",
-    id: 1,
+    id: uuid(),
+    done: true,
+  },
+  {
+    name: 'Walk with my dog',
+    id: uuid(),
+    done: false,
   },
   {
     name: "Go to the gym",
-    id: 2,
+    id: uuid(),
+    done: false,
   },
 ];
 
