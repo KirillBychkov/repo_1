@@ -8,3 +8,5 @@ export const list = [
     id: 2,
   },
 ];
+
+export const initInputValue = '';

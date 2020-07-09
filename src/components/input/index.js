@@ -1,9 +1,18 @@
 import React from 'react';
-import './style.sass'
+import './style.sass';
 
- const Input = ({ placeholder }) =>
-    <div>
-        <input className='input' type='text' placeholder={placeholder}/>
-    </div>
+ const Input = ({ placeholder, value, setValue }) => {
+   const onChange = (event) => setValue(event.target.value);
+
+   return <div>
+     <input
+       className='input'
+       type='text'
+       placeholder={placeholder}
+       value={value}
+       onChange={onChange}
+     />
+   </div>
+};
 
 export default Input;
