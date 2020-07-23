@@ -2,16 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="257f8475-73a5-496b-b0e3-20ec67037f5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/repo_1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/list/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/list/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/list/style.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/const.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +63,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SvnConfiguration">
@@ -75,7 +84,9 @@
       <workItem from="1592926517915" duration="2618000" />
       <workItem from="1592991697775" duration="33000" />
       <workItem from="1594135718106" duration="1108000" />
-      <workItem from="1594307887545" duration="10337000" />
+      <workItem from="1594307887545" duration="11112000" />
+      <workItem from="1595349922839" duration="5718000" />
+      <workItem from="1595517729950" duration="190000" />
     </task>
     <servers />
   </component>
@@ -92,5 +103,9 @@
     </state>
     <state x="561" y="241" key="FileChooserDialogImpl/0.0.1866.1080@0.0.1866.1080" timestamp="1594136843607" />
     <state x="577" y="241" width="530" height="605" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1592991728704" />
+    <state x="305" y="108" width="1186" height="903" key="find.popup" timestamp="1595351543636">
+      <screen x="0" y="0" width="1866" height="1080" />
+    </state>
+    <state x="305" y="108" width="1186" height="903" key="find.popup/0.0.1866.1080/1920.0.1920.1080@0.0.1866.1080" timestamp="1595351543636" />
   </component>
 </project>
